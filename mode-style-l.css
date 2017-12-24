@@ -1,0 +1,245 @@
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.jumbotron {
+    margin-bottom: 0px;
+    padding: 0;
+    /*border: 1px solid black*/
+}
+
+/* L-size bigger than 980px; M-size 640~979px; S-size smaller than 639px */
+
+#container {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+/* overflow:hidden 將多的區塊隱藏，版面比較好看 */
+
+#carousel01 {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#carousel02 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+
+nav {
+    float: center;
+    font-size: 15px;
+    padding-right: 30px;
+    /*padding: 0px 300px;*/
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* list-style-type: none 可把原本有序列表的點點取消*/
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+
+
+
+/* 用CSS做選單!!!這邊先暫且依樣畫葫蘆，之後會教大家Bootstrap，就不用用CSS刻很久了*/
+
+
+/*  display: block 每個連結字體以區塊顯示*/
+
+
+/*  float: left margin-top 連結字體靠左向上對齊*/
+
+
+/*  text-decoration: none 取消底線*/
+
+
+/*  border-bottom: solid 3px transparent 製作一個透明的下底線*/
+
+
+/*  color請參考CSS色碼對照表 https://www.toodoo.com/db/color.html */
+
+nav li a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+/*  nav li a:hover 當滑鼠在連結文字上徘徊的時候 */
+
+nav li a:hover {
+    border-bottom-color: #6a7f93;
+}
+
+
+
+
+
+
+/*  HEADERPOST LEAD*/
+
+#word {
+    float: left;
+    /*width: 300px;*/
+    /*color: #ffffff;*/
+    margin-left: 25px;
+    padding: 20px;
+}
+
+#word p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #212121
+}
+
+#word h2 {
+    margin: 20px 0;
+    font-size: 28px;
+    letter-spacing: 4px;
+    color: #4a505b
+}
+
+#word h3 {
+    margin: 20px 0;
+    /*font-size: 30px;*/
+    letter-spacing: 2px;
+    color: #4a505b
+
+}
+
+
+#word02 {
+    float: left;
+    /*width: 300px;*/
+    /*color: #ffffff;*/
+    margin-left: 25px;
+    padding: 10px 20px 20px 20px;
+}
+
+#word02 p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #212121
+}
+
+#word02 h3 {
+    margin: 20px 0;
+    /*font-size: 30px;*/
+    letter-spacing: 2px;
+    color: #4a505b
+}
+
+
+
+
+
+
+
+/*#99a1b5*/
+
+
+/* ### FOOTER ###*/
+
+footer {
+    background-color: #4d5468;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+footer p {
+    float: left;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 100px;
+    font-family: 
+}
+
+#iconmenu {
+    float: right;
+}
+
+#iconmenu ul {
+    margin: 0;
+    padding: 3px 0 0;
+}
+
+#iconmenu li {
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    top: 10px;
+}
+
+#iconmenu img {
+    border: none;
+    width: 30px;
+    margin: 5px;
+}
+
+#info {
+    clear: both;
+  /*  font-family: 'Work Sans', Helvetica, Arial, san-serif;*/
+    font-size: 12px;
+    overflow: hidden;
+    letter-spacing: 2px;
+    position: relative;
+    top: -20px;
+}
+
+#info hr {
+    border: none;
+    border-top: 1px dashed #5e6a7c;
+    width: 150px;
+    position: absolute;
+    left: 0px;
+    top: -15px;
+
+}
+
+#info p {
+    font-size: 10px;
+    margin: 20px 0px 0px 0px;
+    line-height: 20px;
+
+}
+
